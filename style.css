@@ -339,7 +339,7 @@ hr.style-four {
 
 @keyframes cricket{
     25%{
-        background-image: url(./img/cricket/1.JPG);
+        background-image: url(./img/cricket/1.jpg);
         background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -354,14 +354,14 @@ hr.style-four {
 
     }
     75%{
-        background-image: url(./img/cricket/3.JPG);
+        background-image: url(./img/cricket/3.jpg);
         background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     }
     100%{
-        background-image: url(./img/cricket/4.JPG);
+        background-image: url(./img/cricket/4.jpg);
         background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -371,7 +371,7 @@ hr.style-four {
 
 @keyframes cosmology{
     25%{
-        background-image: url(./img/cosmo/1.JPG);
+        background-image: url(./img/cosmo/1.jpg);
         background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -386,14 +386,14 @@ hr.style-four {
 
     }
     75%{
-        background-image: url(./img/cosmo/3.JPG);
+        background-image: url(./img/cosmo/3.jpg);
         background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     }
     100%{
-        background-image: url(./img/cosmo/4.JPG);
+        background-image: url(./img/cosmo/4.jpg);
         background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
