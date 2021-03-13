@@ -1,0 +1,718 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+body{
+    background-image: url(./img/Abstract-Ambient-Light-Background-Day-Blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(.//img/me1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 60px;
+    margin-bottom: 60px;
+}
+.pos{
+    /* position: absolute; */
+    margin-left: 50%;
+
+    padding-top: 20%;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.pos h1{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4rem;
+}
+.pos button{
+    font-size: 1rem;
+
+    width: 30%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #7ae582;
+}
+
+.pos button:hover{
+    transform: scale(0.90);
+    border-radius: 30px;
+    background-color: #0ead69;
+}
+.pos h1 span{
+    font-size: 5rem;
+    color: #679436;
+}
+button a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+button a:hover{
+    text-decoration: none;
+    list-style: none;
+    color: blanchedalmond;
+}
+
+
+.navbar{
+    height: 60px;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #f3f3f4;
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.navbar:hover{
+    background-color: #7ae582;
+    color: white;
+}
+.navbar-nav{
+    margin-left: 40%;
+    color: black;
+    
+    font-family: 'Baloo 2', cursive;
+}
+ul li {
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+ul li a{
+    color: black;
+}
+ul li a:hover{
+    color: white;
+}
+.navbar-nav:hover{
+    color: white;
+}
+.navbar-brand{
+    margin-left: 30px;
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+.navbar>a{
+    font-size: 1.5rem;
+}
+.navbar>:hover{
+    color: white;
+}
+.navbar i{
+    margin-left:10%;
+}
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.me{
+    background-image: url(./img/cardbg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #d8f3dc; */
+}
+/* .me img{
+    height: 50px;
+    width: 10px;
+} */
+.container h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Architects Daughter', cursive;
+    color: #0ead69;
+}
+
+
+
+
+
+.grid{
+    /* border: 2px solid black; */
+    
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 40px;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-columns: minmax(250px, auto);
+    grid-auto-rows: minmax(250px, auto); */
+}
+.side-a,
+.side-b {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.side-a {
+  background-color: palevioletred;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+
+}
+.side-b {
+  background-color: palegoldenrod;
+  transform: rotateY(180deg);
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.side-b h2 {
+  text-align: center; 
+}
+
+.side-a h1{
+    text-align: center;
+    /* padding-top: 180px; */
+    font-family: 'Baloo 2', cursive;
+}
+.side-a i{
+    text-align: center;
+    padding: 150px;
+    color: black;
+    font-size: 5rem;
+}
+.back-info{
+    /* border: 2px solid red; */
+    font-size: 1.2rem;
+    height: 90%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.back-info h6{
+    font-size: 1.1rem;
+    color: #99582a;
+}
+
+.wrap {
+    box-shadow: 3px 10px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 80%;
+    width: 100%;
+    border: 2px solid black;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.wrap:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+
+
+
+
+
+.hobbies{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: yellow; */
+    background-image: url(./img/20440543.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hobbies h1{
+    padding: 60px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    color: #0ead69;
+}
+.flex{
+    /* border: 2px solid black; */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box{
+    font-family: 'Baloo 2', cursive;
+    box-shadow: 3px 10px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 12%;
+    width: 20%;
+    padding-top: 5px;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    font-size: 2rem;
+}
+.flex div{
+    transition: 2s;
+}
+.flex div:hover{
+    /* transform: scale(1.09); */
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;  
+}
+/* .flex div:hover +div{
+    position: absolute;
+    visibility: hidden;
+} */
+#travel:hover{
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#cricket:hover{
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    animation-name: cricket;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#cosmology:hover{
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    animation-name: cosmology;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@keyframes slide{
+    25%{
+        background-image: url(./img/travel/1.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+    }
+    50%{
+        background-image: url(./img/travel/2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+
+    }
+    75%{
+        background-image: url(./img/travel/3.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    }
+    100%{
+        background-image: url(./img/travel/4.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+        filter: blur(0.5px);
+    }
+}
+
+@keyframes cricket{
+    25%{
+        background-image: url(./img/cricket/1.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+    }
+    50%{
+        background-image: url(./img/cricket/2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+
+    }
+    75%{
+        background-image: url(./img/cricket/3.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    }
+    100%{
+        background-image: url(./img/cricket/4.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+    }
+}
+
+@keyframes cosmology{
+    25%{
+        background-image: url(./img/cosmo/1.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+    }
+    50%{
+        background-image: url(./img/cosmo/2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+
+    }
+    75%{
+        background-image: url(./img/cosmo/3.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    }
+    100%{
+        background-image: url(./img/cosmo/4.JPG);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        filter: blur(0.5px);
+    }
+}
+
+
+.project{
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: lawngreen; */
+    /* background-image: url(./img/project\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-size: cover; */
+}
+.project div h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 4rem;
+    color: #0ead69;
+    text-align: center;
+    padding-top: 30px;
+}
+.container-1{
+    height: 25%;
+    width: 70%;
+    /* border: 1px dashed black; */
+    margin: 10px auto;
+}
+
+.container-1 img{
+    height: 100%;
+    border-radius: 50%;
+    width: 20%;
+    display: inline-block;
+}
+.format{
+    /* border: 2px solid red; */
+    float: right;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'Baloo 2', cursive;
+}
+.format h2{
+    padding-left: 70%;
+    /* font-family: 'Baloo 2', cursive; */
+}
+.format h6{
+    padding-left: 58%;
+    /* font-family: 'Baloo 2', cursive; */
+}
+
+.container-1:hover{
+    transform: scale(1.02);
+    /* filter: blur(0.5); */
+    /* filter: grayscale(100); */
+    background-color: #89c2d9;
+    border-radius: 15px;
+}
+/* .container-1:nth-of-type(3){
+    background-color: #d8e2dc;
+} */
+.format-1{
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.format-1 h6{
+    /* border: 2px solid red; */
+    padding: 0px;
+    /* font-family: 'Baloo 2', cursive; */
+}
+.container-1 img:hover{
+    filter: blur(1px);
+    cursor: pointer;
+    
+}
+
+.tech{
+    height: 120vh;
+    width: 100vw;
+    
+}
+.bg-tech{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/check4.webp);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    
+}
+
+.tech h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 4rem;
+    color: #0ead69;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.techstack{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    /* border: 2px solid red; */
+}
+
+.tech-divs{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d0ffb7;
+    padding: 30px;
+    /* border: 2px solid green; */
+    border-bottom: 1px dashed green;
+}
+.tech-divs:hover{
+    background-color: #e0aaff;
+}
+.tech-divs h2{
+    color: #723c70;
+}
+.tech-divs:hover h2{
+    color:indigo;
+}
+
+.tech-divs h2{
+    font-size: 2.5rem;
+    color: #0ead69;
+}
+
+.tech-divs img{
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    /* padding-left: px; */
+}
+
+.tech-divs img:hover{
+    transform: scale(1.5);
+}
+#front{
+
+}
+
+
+
+.contact{
+    height: 90vh;
+    width: 100vw; 
+    
+}
+.contact h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 4rem;
+    color: #0ead69;
+    text-align: center;
+    padding-top: 30px;
+}
+.contact-align{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    /* border: 2px solid black; */
+    background-image: url("./img/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.anime{
+    /* height: 10%; */
+    width: 20%;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    
+}
+.anime i{
+    /* height: 90%; */
+    animation: move 2s infinite forwards alternate-reverse;
+}
+
+@keyframes move{
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(490px);
+      }
+}
+.contact form{
+    height: 100%;
+    width: 60%;
+    color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.contact form div{
+    height: 20%;
+    width: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.5rem; */
+    font-family: 'Baloo 2', cursive;
+}
+
+.contact form button{
+    width: 50%;
+    height: 30%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #7b2cbf;
+    border-radius: 15px;
+}
+.contact form button:hover{
+    background-color: #38b000;
+    cursor: pointer;
+}
+.contact span{
+    font-size: 2rem;
+}
+.contact input{
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.contact input:hover{
+    width: 100%;
+    background-color: #d8e2dc;
+    border-radius: 30px;
+}
+
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: #a5a58d;
+    display: flex;
+    justify-content: space-between;
+    animation: 5s bgchange infinite alternate-reverse;
+}
+.heading-foot{
+    width: 20%;
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    
+    /* border: 2px solid black; */
+}
+.right{
+    display: flex;
+    /* margin-left: 150px; */
+    font-size: 4rem;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 30px; */
+    width: 80%;
+    /* border: 2px solid red; */
+    transition: 2s;
+}
+.fab{
+    padding: 20px;
+}
+.fab:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.up{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.up div h6{
+    padding-right: 35px;
+}
+.up div span{
+    font-family: 'Redressed', cursive;
+    font-size: 1.2rem;
+}
+@keyframes bgchange{
+    0%{
+        background-color: #f2f5de;
+    }
+    20%{
+        background-color: #d0ffb7;
+    }
+    40%{
+        background-color: #b2ffa8;
+    }
+    60%{
+        background-color: #93ff96;
+    }
+    80%{
+        background-color: #86e7b8;
+    }
+    100%{
+        background-color: #87c38f;
+    }
+}
