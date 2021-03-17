@@ -170,7 +170,9 @@ hr.style-four {
   z-index: 1;
   height: 100%;
   width: 100%;
-
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .side-b {
   background-color: palegoldenrod;
@@ -189,9 +191,16 @@ hr.style-four {
     /* padding-top: 180px; */
     font-family: 'Baloo 2', cursive;
 }
+.side-a div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .side-a i{
     text-align: center;
-    padding: 150px;
+    /* padding: 150px; */
+    
     color: black;
     font-size: 5rem;
 }
@@ -483,7 +492,7 @@ hr.style-four {
 .tech{
     height: 120vh;
     width: 100vw;
-    
+    margin-top: 100px;
 }
 .bg-tech{
     width: 100%;
@@ -582,7 +591,9 @@ hr.style-four {
     text-align: center;
     font-size: 5rem;
     color: white;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .anime i{
     /* height: 90%; */
@@ -594,7 +605,7 @@ hr.style-four {
         transform: translateY(0px);
       }
       to {
-        transform: translateY(490px);
+        transform: translateY(100%);
       }
 }
 .contact form{
